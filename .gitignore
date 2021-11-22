@@ -1,0 +1,7 @@
+/api-gateway-java/deploy/
+/api-gateway-java/target/
+*.idea
+*.iml
+/client-reactjs/node_modules
+/socket-server/deploy/
+/socket-server/target/

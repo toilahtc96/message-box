@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.tvd12</groupId>
+        <artifactId>ezyfox</artifactId>
+        <version>1.0.1</version>
+    </parent>
+
+    <groupId>org.youngmonkeys.example</groupId>
+    <artifactId>push-message-api-gateway</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>push-message-api-gateway</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <ezymq.kafka.version>1.1.5</ezymq.kafka.version>
+        <ezyhttp.version>0.1.7</ezyhttp.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.tvd12</groupId>
+            <artifactId>ezymq-kafka</artifactId>
+            <version>${ezymq.kafka.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.tvd12</groupId>
+            <artifactId>ezyhttp-server-boot</artifactId>
+            <version>${ezyhttp.version}</version>
+        </dependency>
+    </dependencies>
+</project>
